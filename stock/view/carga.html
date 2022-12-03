@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cargaStyle.css">
+    <title>stock toner program</title>
+</head>
+<body>
+    <h1>STOCK TONER</h1>
+    <form action="stockToner.php" method="post">
+          <div class="container">
+            
+            <fieldset>
+            <div id="form">  
+           <label for="toner">TONER:</label>
+           <select name="seleccionable" id="toner">
+                <option value="85">85</option>
+                <option value="83">83</option>
+                <option value="2370/660">2370/660</option>
+                <option value="450">450</option>
+                <option value="19">19</option>
+                <option value="1060">1060</option>
+                <option value="05/80">05/80</option>
+                <option value="111">111</option>
+                <option value="210">210</option>
+                <option value="17">17</option>
+            </select> 
+            </div>  
+
+          <div id="form">
+          <label for="cantidad">CANTIDAD:</label>
+          <input name="seleccionable" type="number" id="cantidad">
+          </div> 
+        
+       
+          <div id="form">
+          <label for="servicio">SERVICIO:</label>
+          <select name="seleccionable" id="servicio">
+            <option value="clinica médica">clinica médica</option>
+            <option value="coordinación">coordinación</option>
+            <option value="consultorio externo">consultorio externo</option>
+            <option value="diagnóstico por imágenes">diagnóstico por imágenes</option>
+            <option value="salud laboral">salud laboral"</option>
+           </select>
+          </div> 
+
+    </fieldset>
+
+    
+          <button type="submit">CARGAR</button>
+        </div>
+        
+      </form>
+</body>
+</html>
